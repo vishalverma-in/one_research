@@ -1,0 +1,38 @@
+
+.notification
+{
+    width: 500px;
+    margin-top: 0;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+
+}
+
+p
+{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+a
+{
+    cursor:default;
+}
+
+a :hover
+{
+    color: black;
+}
+
+
+
+.delete{
+    margin-right: 20rem;
+    margin-top: 1rem;
+    border: none;
+    padding: 5px;
+    background-color: rgba(236, 43, 43, 0.83);
+    border-radius: 5px;
+}
+

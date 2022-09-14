@@ -1,0 +1,156 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.login-img > img {
+  height: 35vh;
+  margin-top: -7%;
+  margin-right: 100px;
+  
+}
+.login-img > h1 {
+  color: #667292;
+  font-size: 4em;
+}
+.right-sides > img {
+  height: 37vw;
+  margin-left:20px;
+  margin-top: 20px;
+}
+.left-side > a {
+  margin-left: 2rem;
+  color: #fff;
+  background-color: #0074b1 !important;
+}
+.text {
+  padding: 0.5em 0;
+  font-size: 56px;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.btns {
+  margin-bottom: 2rem;
+}
+.btns > a{
+  color: white;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .left-side {
+    margin-left: 0rem;
+  }
+  .right-sides {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 754px) {
+  .left-side {
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+  }
+  .login-img > a > img {
+    height: 25vh;
+  }
+  .login-img > h1 {
+    font-size: 50px;
+  }
+  .text {
+    font-size: 2rem;
+    width: 20rem;
+  }
+  .text:hover{
+    transform: scale(1.1);
+  }
+  .btns {
+    margin-top: 10rem;
+  }
+}
+
+
+
+.mainDiv {
+  display: block;
+}
+
+.main2 > h1 {
+  padding: 0.1em 0;
+  font-size: 40px;
+  font-weight: 320;
+  color: #b24020;
+  text-align: center;
+}
+
+.orgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  /* border: 1px solid #DCAE96; */
+  /* background-color: #C8A2C8; */
+  border-radius: 25px;
+ 
+}
+
+.orgimages {
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+}
+.main2 {
+  margin-top: 5em;
+  margin-right: 5em;
+}
+
+.main3 {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: row;
+  /* background-color:antiquewhite; */
+  height: auto;
+  /* background-color: #C8A2C8; */
+  justify-content: space-around;
+}
+
+.left-text {
+  width: 50%;
+  display: inline;
+  font-weight: 300;
+  color: #b24020;
+}
+
+.left-text > h2 {
+  font-weight: 320;
+  font-size: 40px;
+  text-align: left;
+}
+
+.right-button > a {
+  font-size: xx-large;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #0074b1 !important;
+  padding: 0 1.5rem;
+}
+
+
+@media screen and (max-width: 700px) {
+  .main2 > h1 {
+    font-size: 2em;
+  }
+
+  .left-text > h2 {
+    font-size: 2em;
+  }
+
+  .orgimages {
+    height: 100px;
+    width: 100px;
+  }
+}

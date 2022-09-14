@@ -1,0 +1,114 @@
+.form-control:focus {
+  box-shadow: none;
+  border-color: #667292;
+  font-family: 'Segoe UI';
+  
+}
+
+.form-control {
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.profile-button {
+  background: #667292;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+
+.profile-button:hover {
+  background: #bccad6;
+}
+
+.profile-button:focus {
+  background: #bccad6;
+  box-shadow: none;
+}
+
+.profile-button:active {
+  background: #667292;
+  box-shadow: none;
+}
+
+.back:hover {
+  color: #bccad6;
+  cursor: pointer;
+}
+
+.labels {
+  font-size: 11px;
+  color: black;
+}
+
+.add-experience:hover {
+  background: #bccad6;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #667292;
+}
+
+.container {
+  flex: 0.6;
+  margin: 0 20px;
+}
+
+.col-md-5 {
+  width: auto;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  color: #667292;
+  font-weight: bolder;
+  font-family: 'Times New Roman';
+}
+
+input {
+  font-size: medium;
+  font-weight: normal;
+}
+#notice{
+  color: red ;
+}
+
+.labels {
+  font-weight: normal;
+  color: #667292;
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#view_profile {
+  color: white;
+}
+
+#profile_button {
+  margin: 8px;
+}
+
+.image {
+  width: 200px;
+}
+
+#about {
+  min-height: 100px;
+  resize: none;
+}
+
+.heading-1 {
+  font-family: "Franklin Gothic Medium";
+  padding: 10px;
+}
+
+.heading-2 {
+  font-family: "Franklin Gothic Medium";
+  margin-top: 40px;
+}
+
+.col-md-12 {
+  margin-top: 10px;
+}
+ 
+

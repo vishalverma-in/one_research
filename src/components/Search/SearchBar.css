@@ -1,0 +1,32 @@
+.input
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-left: 5rem;
+}
+
+.searchInput
+{
+    display: flex;
+}
+
+.searchIcon
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.dataResult
+{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+
+
